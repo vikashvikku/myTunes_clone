@@ -1,0 +1,191 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* container styles */
+
+.container {
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #444;
+  padding: 10px;
+  position: fixed;
+  width: 100vw;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+/* Main content styles */
+main {
+  background-image: url("https://i.pinimg.com/originals/78/08/a7/7808a7cc160f2485ce36766840d8d825.png");
+  width: 95.8%;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+/* main Header styles */
+main header {
+  color: #fff;
+  padding: 12rem 15px 15px 15px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.main {
+  color: #fff;
+  text-align: center;
+}
+
+/* ads Container styles */
+
+.ads {
+  width: 98.75vw;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-weight: 100;
+}
+
+.ads header {
+  color: #fff;
+  padding: 4rem 15px 20px 15px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.ads h1,
+p {
+  padding-bottom: 1rem;
+}
+
+.ads button {
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.ads img {
+  width: 80%;
+  height: 100vh;
+  padding-bottom: 1rem;
+}
+
+/* Collection container styles */
+
+.collection {
+  /* background-color: #333; */
+  color: black;
+  text-align: center;
+}
+
+.collection header {
+  /* color: #fff; */
+  padding: 4rem 15px 20px 15px;
+  font-size: 36px;
+}
+
+.collection p {
+  text-align: center;
+  color: rgb(39, 37, 37);
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.collection button {
+  color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(89, 89, 235);
+  cursor: pointer;
+  border: none;
+}
+
+.collection button:hover {
+  background-color: rgb(59, 59, 240);
+}
+
+/* entertain container styles */
+
+.entertain {
+  background-image: url("https://wallpapers.com/images/hd/dark-purple-city-view-8v7bayl3lciusuos.jpg");
+  width: 98.6vw;
+  height: 90vh;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.entertain header {
+  padding: 16rem 0 2rem 0;
+  font-size: 36px;
+}
+
+.entertain p {
+  font-size: 20px;
+  line-height: 1.8rem;
+}
+
+/* gift container styles */
+
+.gift {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 4rem 0 0 0;
+}
+
+.gift-img img {
+  padding-left: 8rem;
+  width: 70%;
+}
+
+.gift-content {
+  width: 100%;
+}
+
+.gift-content header {
+  font-size: 32px;
+  color: #333;
+  padding-bottom: 1rem;
+}
+
+.gift-content p {
+  color: #141414;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
